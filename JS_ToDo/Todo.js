@@ -78,33 +78,6 @@ console.log(divID);
 
 
 
-//working with alerts. Check gives 'checked' message. Unchecked gives 'unchecked' message.
-// function complete(){    
-//     if(createdCheckBox.checked ==true)
-//         {
-//             //works! Must be an ID
-//             document.querySelector("div").style.textDecoration= "line-through";
-//             // document.getElementByClassName("p").style.color="gray";
-            
-//         }
-//     else if(!this.checked){
-//         alert("unchecked");
-    
-//     }
-
-// }
-    //    createdDiv.addEventListener('click',()=>{
-    //         createdDiv.style.setProperty("text-decoration", "line-through");
-    //         createdDiv.style.setProperty("color","gray");
-    //         createdDiv.addEventListener('click',()=>{
-    //             createdDiv.style.setProperty("text-decoration","none");
-    //             createdDiv.style.setProperty("color","blue");
-    //             });
-    //     });
-    
-
-
-
 
 addBtn.addEventListener('click',()=>{
     // clearing the input field
