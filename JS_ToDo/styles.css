@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+body{
+    font-family: 'Sriracha', cursive;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image:linear-gradient(gray, rgb(187, 187, 187));
+}
+#caption{
+    text-align: center;
+    font-weight: 900;
+    color:wheat;
+    text-shadow: 1px 2px black;
+}
+section{
+    display: block;
+    height:100vh;
+    width: 100%;
+
+}
+
+form{
+    display: inline-block;
+    width: 100%;
+}
+
+#todo-input{
+    padding: 2%;
+    width: 80%;
+    height: auto;
+}
+
+
+.listItem{
+    display:block;
+    font-family: 'Sriracha', cursive;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* box-shadow: 3px 3px black; */
+    font-weight: 400;
+    text-align: left;
+}
+
+p{
+    display: inline;
+    padding: 5px;
+}
+.btn{
+    display: inline;
+    float: right;
+    height: auto;
+    width: auto;
+    padding: 1%;
+    /* background-color: rgb(180, 0, 0); */
+    font-style: oblique;
+    color: white;
+    background-image: linear-gradient(red,rgb(180,0,0))
+}
